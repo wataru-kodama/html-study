@@ -6,6 +6,6 @@ $(function () {
     auto: true,
     speed: 2000,
     pager: false,
-    controls: false,
+    controls: false
   });
 });
