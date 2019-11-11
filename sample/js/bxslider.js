@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 $(function () {
   $('#slider').bxSlider({
@@ -6,6 +6,6 @@ $(function () {
     auto: true,
     speed: 2000,
     pager: false,
-    controls: false,
+    controls: false
   });
 });
