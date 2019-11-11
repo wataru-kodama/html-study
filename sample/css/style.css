@@ -1,0 +1,279 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+body {
+  background-color: #fdf5e6;
+}
+header {
+  margin: 0 auto 20px;
+  padding-top: 30px;
+  text-align: center;
+  width: 860px;
+}
+header h1 {
+  margin: 0 0 20px;
+}
+header h1 a {
+  display: inline-block;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav li {
+  background-color: #443221;
+  border-radius: 3px;
+  height: 46px;
+  line-height: 46px;
+  width: 215px;
+}
+.header-nav li:not(:last-child) {
+  border-right: 1px solid #dddddd;
+}
+.header-nav li a {
+  border-radius: 2px;
+  color: #fff;
+  display: block;
+  font-size: 0.8rem;
+}
+.header-nav li a:hover {
+  background-color: #d2b48c;
+  color: #443211;
+}
+.breadcrumb {
+  color: #443211;
+  display: flex;
+  font-size: 0.8rem;
+  margin: 0 auto 20px;
+  width: 860px;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: '>';
+  margin: 0 10px;
+}
+.breadcrumb li a {
+  color: #000;
+  text-decoration: underline;
+}
+.breadcrumb li a:hover {
+  opacity: 0.6;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+  width: 860px;
+}
+main {
+  width: 560px;
+}
+main h1 {
+  background-image: url(../images/bg_h1_bottom.png), url(../images/bg_h1_head.png);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  color: #443221;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  padding: 38px 0 38px 64px;
+}
+.sub-bnr:first-child {
+  margin-bottom: 20px;
+}
+.sub-bnr a {
+  display: inline-block;
+}
+.sub-bnr a:hover {
+  opacity: 0.6;
+}
+.sub-bnr p {
+  color: #000;
+  font-size: 0.9rem;
+} 
+.pagetop {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto 10px;
+  width: 860px;
+}
+.pagetop a {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+.pagetop a::before {
+  content: url(../images/bg_arrow.png);
+  margin-right: 5px;
+}
+.pagetop a:hover {
+  opacity: 0.6;
+}
+footer {
+  background: url(../images/bg_footer.png) center top repeat-x;
+  color: #443211;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  padding-top: 16px;
+  text-align: center;
+  width: 860px;
+}
+footer address {
+  font-style: normal;
+}
+.sp-br {
+  display: none;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+.slideshow {
+  text-align: center;
+  margin: 0 auto;
+  width: 860px;
+}
+.news li {
+  border-bottom: 1px dotted #000;
+  color: #000;
+  display: flex;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+.news li time {
+  color: #443211;
+  margin-right: 30px;
+}
+.bx-wrapper img {
+  margin: auto;
+}
+/* トップページ ここまで↑ */
+
+/* 「結婚式場のコンセプト」ページ ここから↓ */
+.consept-area {
+  color: #443211;
+  display: inline-block;
+  margin: 0 0 30px;
+}
+.consept-area:last-child {
+  margin: 0;
+}
+main h2 {
+  background-image: url(../images/bg_h2_bottom.png), url(../images/bg_h2_head.png);
+  background-position: center bottom, left top;
+  background-repeat: repeat-x, no-repeat;
+  color: #443211;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  padding: 20px 0 14px 18px;
+}
+.consept-image {
+  float: right;
+  margin-left: 20px;
+}
+.consept-image2 {
+  float: left;
+  margin-right: 20px;
+}
+.consept-area::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.consept-area p {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 20px;
+}
+.consept-area p:last-child {
+  margin: 0;
+}
+/* 「結婚式場のコンセプト」ページ ここまで↑ */
+
+/* 「プランのご案内」ページ ここから↓ */
+table {
+  border-collapse: collapse;
+  color: #443211;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+table caption {
+  margin: 0 0 20px;
+  text-align: left;
+}
+table .guide-title {
+  font-weight: bold;
+}
+thead th, tbody td {
+  border: 1px solid #443211;
+  padding: 14px 0 14px 8px;
+}
+thead {
+  background-color: #ffdeae;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+thead th:first-child {
+  width: 20%;
+}
+tbody td:first-child {
+  text-align: center;
+}
+/* 「プランのご案内」ページ ここまで↑ */
+/* 「ブライダルフェア」ページ ここから↓ */
+  .fair-area {
+    color: #443211;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .fair-area p {
+    margin: 0 0 30px;
+  }
+  .fair-area ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .fair-area ul li {
+    margin: 0 0 20px;
+  }
+  .fair-area ul figure {
+    margin: 0;
+    width: 180px;
+  }
+
+/* 「ブライダルフェア」ページ ここまで↑ */
+
+/* 「お問い合わせ」ページ ここから↓ */
+.contact-area {
+  color: #443211;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+.contact-area ul {
+  padding-left: 26px;
+  margin: 0 0 20px;
+}
+.contact-area ul li {
+  list-style-type: disc;
+}
+.contact-area p:not(:last-child) {
+  margin: 0 0 20px;
+}
+input[type=text] {
+  border: 1px solid #000;
+  width: 200px;
+}
+input[type=email] {
+  border: 1px solid #000;
+  width: 250px;
+}
+textarea {
+  border: 1px solid #000;
+  height: 80px;
+  width: 300px;
+}
+/* 「お問い合わせ」ページ ここまで↑ */

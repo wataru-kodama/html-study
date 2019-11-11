@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+header, .slideshow, footer {
+  width: 100%;
+}
+.header-nav {
+  display: block;
+}
+.header-nav li {
+  border-radius: 0;
+  height: 34px;
+  line-height: 34px;
+  width: 100%;
+}
+.header-nav li a {
+  border-radius: 0;
+}
+.header-nav li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+.slideshow img {
+  height: auto;
+  width: 100%;
+}
+.bx-wrapper {
+  margin-bottom: 30px;
+}
+.breadcrumb {
+  font-size: 0.7rem;
+  margin: 0 auto 10px;
+  width: 96%;
+}
+.content {
+  display: block;
+  width: 96%;
+}
+main {
+  margin: 0 auto 20px;
+  width: 98%;
+}
+main h1 {
+  font-size: 1.2rem;
+  padding: 40px 0 30px 64px;
+}
+main h2 {
+  font-size: 1rem;
+  padding: 14px 0 10px 20px;
+  margin: 0 0 10px;
+}
+.news li {
+  display: block;
+  padding: 16px 0;
+}
+.news li time {
+  display: block;
+  margin: 0 0 10px;
+}
+.pagetop {
+  margin: 0 auto;
+  width: 96%;
+}
+.pagetop a {
+  font-size: 0.8rem;
+}
+.sub {
+  text-align: center;
+}
+footer {
+  font-size: 0.8rem;
+}
+.sp-br {
+  display: block;
+}
+/* 結婚式場のコンセプト */
+.consept-area p {
+  font-size: 0.8rem;
+  text-indent: 1em;
+}
+.consept-image {
+  float: none;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+.consept-image2 {
+  float: none;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+/* プランのご案内 */
+table {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+tbody td:first-child {
+  text-align: left;
+}
+/* ブライダルフェア */
+.fair-area {
+  font-size: 0.8rem;
+}
+.fair-area ul li {
+  width: 48%;
+}
+.fair-area ul figure {
+  width: 100%;
+}
+.fair-area ul figure img {
+  height: auto;
+  width: 100%;
+}
+/* お問い合わせ */
+.contact-area {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.contact-area ul {
+  padding: 0 16px;
+}
+form p:last-child {
+  text-align: right;
+}
