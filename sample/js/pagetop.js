@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 $(function() {
   $('#top').on('click', function() {
