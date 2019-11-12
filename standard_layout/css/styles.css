@@ -34,7 +34,7 @@ header h1 {
 .content {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   width: 970px;
 }
 main {
@@ -152,14 +152,17 @@ main {
   margin: 0 0 20px;
   padding-left: 10px;
 }
+.ranking-area li {
+  margin: 0 0 16px;
+}
 .ranking-area ol li a {
   display: flex;
 }
 .ranking-area ol li a p {
   color: #000;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   width: 60%;
-  margin: 0 0 10px 20px;
+  margin-left: 20px;
 }
 .docment-area h2 {
   font-size: 1.8rem;
@@ -185,4 +188,66 @@ main {
 }
 .docment-area ul li a:hover {
   text-decoration: underline;
+}
+.search-box {
+  padding: 18px 0 14px 24px; 
+  background: #bbb;
+}
+.search-box input[type="search"] {
+  font-size: 1.3rem;
+  height: 20px;
+  border: none;
+  margin: 0 0 10px;
+}
+.search-box input[type="submit"] {
+  font-size: 1.1rem;
+  height: 20px;
+  border: none;
+  line-height: 17px;
+  background: #cc3333;
+  color: #fff;
+  cursor: pointer;
+}
+.search-box label {
+  font-size: 1.3rem;
+  color: #444;
+}
+.pagetop {
+  margin: 0 auto 10px;
+  width: 970px;
+  text-align: right;
+}
+.pagetop a {
+  font-size: 1.3rem;
+  color: #666;
+}
+.pagetop a::before {
+  content: '↑';
+  margin-right: 5px;
+}
+.pagetop a:hover {
+  color: #ff0000;
+}
+footer {
+  text-align: center;
+  background: #778899;
+  padding: 10px 0 30px;
+  color: #fff;
+}
+.footer-nav {
+  display: flex;
+  margin: 0 auto 20px;
+  justify-content: flex-end;
+  width: 970px;
+}
+.footer-nav li {
+  padding: 0 20px;
+}
+.footer-nav li a {
+  border-bottom: 1px dotted #bbb;
+  font-size: 1.2rem;
+  color: #bbb;
+}
+.footer-nav li:not(:last-child) {
+  border-right: 1px solid #bbb;
 }
