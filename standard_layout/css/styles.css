@@ -23,8 +23,8 @@ header h1 {
   width: 100px;
 }
 .header-nav li a {
-  display: block;
   color: #666;
+  display: block;
 }
 .header-nav li a:hover {
   background: #cc3333;
@@ -62,17 +62,17 @@ main {
   padding: 2px 2px 2px 14px;
 }
  .topic-info h3 {
-  padding: 0 30px;
   color: #fff;
+  padding: 0 30px;
   font-weight: normal;
   line-height: 2.7rem;
   margin: 0 auto 24px;
 }
 .topic-info p {
-  padding: 0 30px;
   color: #fff8dc;
   font-size: 1.2rem;
   line-height: 2.2rem;
+  padding: 0 30px;
 }
 .news {
   margin: 0 0 20px;
@@ -88,6 +88,10 @@ main {
   color: #000;
   display: flex;
   width: 660px;
+}
+.news ol li:hover {
+  background: #eee;
+  opacity: 0.6;
 }
 .news time {
   font-size: 1.1rem;
@@ -117,14 +121,17 @@ main {
   flex-wrap: wrap;
 }
 .article li {
-  margin: 0 0 28px;
-  height: 360px;
-  width: 315px;
   box-shadow: 4px 4px 4px #ddd;
+  height: 360px;
+  margin: 0 0 28px;
+  width: 315px;
+}
+.article li:hover {
+  opacity: 0.7;
 }
 .article li a {
-  display: block;
   color: #666;
+  display: block;
   font-size: 1.3rem;
 }
 .article img {
@@ -153,7 +160,11 @@ main {
   padding-left: 10px;
 }
 .ranking-area li {
+  counter-increment: sample;
   margin: 0 0 16px;
+}
+.ranking-area li:hover {
+  opacity: 0.8;
 }
 .ranking-area ol li a {
   display: flex;
@@ -161,8 +172,13 @@ main {
 .ranking-area ol li a p {
   color: #000;
   font-size: 1.2rem;
-  width: 60%;
   margin-left: 20px;
+  width: 60%;
+}
+.ranking-area ol li a p::before {
+  content: counter(sample);
+  color: #ff0000;
+  margin: 0 5px;
 }
 .docment-area h2 {
   font-size: 1.8rem;
@@ -170,10 +186,10 @@ main {
   padding-left: 10px;
 }
 .docment-area h3 {
-  font-size: 1.5rem;
   border-left: 5px solid #cc3333;
-  padding-left: 6px;
+  font-size: 1.5rem;
   margin: 0 0 10px;
+  padding-left: 6px;
 }
 .docment-area ul {
   padding-left: 16px;
@@ -190,36 +206,36 @@ main {
   text-decoration: underline;
 }
 .search-box {
-  padding: 18px 0 14px 24px; 
   background: #bbb;
+  padding: 18px 0 14px 24px; 
 }
 .search-box input[type="search"] {
+  border: none;
   font-size: 1.3rem;
   height: 20px;
-  border: none;
   margin: 0 0 10px;
 }
 .search-box input[type="submit"] {
-  font-size: 1.1rem;
-  height: 20px;
   border: none;
-  line-height: 17px;
   background: #cc3333;
   color: #fff;
   cursor: pointer;
+  font-size: 1.1rem;
+  height: 20px;
+  line-height: 17px;
 }
 .search-box label {
-  font-size: 1.3rem;
   color: #444;
+  font-size: 1.3rem;
 }
 .pagetop {
   margin: 0 auto 10px;
-  width: 970px;
   text-align: right;
+  width: 970px;
 }
 .pagetop a {
-  font-size: 1.3rem;
   color: #666;
+  font-size: 1.3rem;
 }
 .pagetop a::before {
   content: '↑';
@@ -229,15 +245,15 @@ main {
   color: #ff0000;
 }
 footer {
-  text-align: center;
   background: #778899;
-  padding: 10px 0 30px;
   color: #fff;
+  text-align: center;
+  padding: 10px 0 30px;
 }
 .footer-nav {
   display: flex;
-  margin: 0 auto 20px;
   justify-content: flex-end;
+  margin: 0 auto 20px;
   width: 970px;
 }
 .footer-nav li {
@@ -245,8 +261,11 @@ footer {
 }
 .footer-nav li a {
   border-bottom: 1px dotted #bbb;
-  font-size: 1.2rem;
   color: #bbb;
+  font-size: 1.2rem;
+}
+.footer-nav li a:hover {
+  color: #eee;
 }
 .footer-nav li:not(:last-child) {
   border-right: 1px solid #bbb;
