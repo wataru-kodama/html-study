@@ -158,9 +158,9 @@ main {
   background: #99cc00;
   bottom: 16px;
   font-size: 1.2rem;
-  right: 0;
-  position: absolute;
   padding: 2px 0;
+  position: absolute;
+  right: 0;
   text-align: center;
   width: 150px;
 }
@@ -201,8 +201,8 @@ main {
   display: block;
   font-size: 1rem;
   line-height: 17px;  
-  transform: rotate(45deg);
   text-align: center;
+  transform: rotate(45deg);
 }
 .ranking-area ol li:nth-child(1) .ranking-num {
   background: #ffcc00;
