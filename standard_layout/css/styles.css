@@ -64,8 +64,8 @@ main {
  .topic-info h3 {
   color: #fff;
   font-weight: normal;
-  margin: 0 auto 24px;
   line-height: 2.7rem;
+  margin: 0 auto 24px;
   padding: 0 30px;
 }
 .topic-info p {
@@ -110,8 +110,8 @@ main {
   display: inline-block;
   font-size: 1rem;
   height: 20px;
-  margin-right: 26px;
   line-height: 20px;
+  margin-right: 26px;
   text-align: center;
   width: 46px;
 }
@@ -169,7 +169,7 @@ main {
 }
 .ranking-area {
   margin: 0 0 30px;
-} 
+}
 .ranking-area li {
   counter-increment: sample;
   margin: 0 0 16px;
@@ -222,37 +222,37 @@ main {
 .ranking-area ol li:nth-child(-n+3) .ranking-num::before {
   color: #fff;
 }
-.docment-area h3 {
+.document-area h3 {
   border-left: 5px solid #cc3333;
   font-size: 1.5rem;
   margin: 0 0 10px;
   padding-left: 6px;
 }
-.docment-cat li {
+.document-cat li {
   margin: 0 0 20px;
 }
-.docment-cat-inner {
+.document-cat-inner {
   padding-left: 16px;
 }
-.docment-cat-inner li {
+.document-cat-inner li {
   font-size: 1.4rem;
   margin: 0 0 8px;
 }
-.docment-cat-inner li::before {
+.document-cat-inner li::before {
   content: url(../images/arrow.gif);
   margin-right: 5px;
 }
-.docment-common {
+.document-common {
   margin: 0 0 20px;
 }
-.docment-common p {
+.document-common p {
   font-size: 1.4rem;
   margin: 0 0 8px;
 }
-.docment-area ul li a {
+.document-area ul li a {
   color: #ff0000;
 }
-.docment-area ul li a:hover {
+.document-area ul li a:hover {
   text-decoration: underline;
 }
 .search-box form {
