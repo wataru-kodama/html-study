@@ -201,3 +201,13 @@ footer {
   padding: 0 0 20px;
   text-align: center;
 }
+.pagetop {
+  margin: 0 auto 20px;
+  text-align: end;
+  width: 1000px;
+}
+.pagetop a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
