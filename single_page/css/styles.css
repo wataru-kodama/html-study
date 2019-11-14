@@ -195,3 +195,9 @@ input[type="submit"] {
   padding: 16px 0;
   width: 200px;
 }
+footer {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 0 20px;
+  text-align: center;
+}
