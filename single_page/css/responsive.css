@@ -7,11 +7,14 @@ header {
   width: 100%;
 }
 .secondary-title {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
   display: inline-block;
   font-size: 1.6rem;
   padding: 10px 60px;
+}
+.secondary-title::before, .secondary-title::after {
+  display: block;
+  margin: 10px 0;
+  width: 200px;
 }
 header h1 {
   font-size: 2.5rem;
