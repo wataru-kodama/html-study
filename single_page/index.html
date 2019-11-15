@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>シングルページ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:480px)"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/pagetop.js"></script>
+  </head>
+  <body>
+    <header>
+      <p class="secondary-title">web designer's portfolio</p>
+      <h1>HI, MY NAME IS...</h1>
+      <p class="tertiary-title">Check out some of my works</p>
+      <div class="header-nav">
+        <a href="#about-area">LEARN MORE</a>
+        <a href="#contact-area">SEND MESSAGE</a>
+      </div>
+    </header>
+    <div class="content">
+      <div class="about-area" id="about-area">
+        <h2>ABOUT ME</h2>
+        <p>はじめまして。日本でWebデザイナーをしています。<br>デザインの専門学校を卒業し、制作会社での実務経験を経て、現在はフリーランスとして働いています。</p>
+        <p>このサイトは「HTML/CSSモダンコーティング」という書籍のサンプルとして作られた、架空のWEBデザイナーのポートフォリオです。<br>このサンプルのようなサイトをいちから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。</p>
+      </div>
+      <div class="works-area">
+        <h2>WORKS</h2>
+        <ul>
+          <li>
+            <div class="works-description">
+              <div class="bg">
+                <p>ひとつめの作成事例が入ります。</p>
+                <p>簡単な説明が入ります。</p>
+                <p>使用ツール：XXX,XXX,XXX</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <div class="works-image">
+              <img src="image/tree.jpg" width="500" height="300" alt="木の写真">
+            </div>
+          </li>
+          <li>
+            <div class="works-description">
+              <div class="bg">
+                <p>ふたつめの作成事例が入ります。</p>
+                <p>簡単な説明が入ります。</p>
+                <p>使用ツール：XXX,XXX,XXX</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <div class="works-image">
+              <img src="image/building.jpg" width="500" height="300" alt="横断歩道">
+            </div>
+          </li>
+          <li>
+            <div class="works-description">
+              <div class="bg">
+                <p>みっつめの作成事例が入ります。</p>
+                <p>簡単な説明が入ります。</p>
+                <p>使用ツール：XXX,XXX,XXX</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <div class="works-image">
+              <img src="image/lake.jpg" width="500" height="300" alt="池の写真">
+            </div>
+          </li>
+          <li>
+            <div class="works-description">
+              <div class="bg">
+                <p>よっつめの作成事例が入ります。</p>
+                <p>簡単な説明が入ります。</p>
+                <p>使用ツール：XXX,XXX,XXX</p>
+                <a href="#">READ MORE</a>
+              </div>
+            </div>
+            <div class="works-image">
+              <img src="image/sky.jpg" width="500" height="300" alt="空の写真">
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="skill-area">
+        <h2>MY SKILLS</h2>
+        <ul>
+          <li>
+            <div class="skill-caption"></div>
+            <div class="skill-description">
+              <h3>IDEA</h3>
+              <p>何かを考えることが好きです。<br>新しいことを思いついては試しています。<br>ディレクションの経験もあります。</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-caption"></div>
+            <div class="skill-description">
+              <h3>DESIGN</h3>
+              <p>見た目の綺麗さだけじゃなくて、<br>使いやすさ、情報の伝わりやすさなど、<br>その先まで考えることを意識しています。</p>
+            </div>
+          </li>
+          <li>
+            <div class="skill-caption"></div>
+            <div class="skill-description">
+              <h3>CODING</h3>
+              <p>HTML/CSSのコーディングも行います。<br>正しく美しいマークアップと、<br>今後の変更の強さを考慮しています。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-area" id="contact-area">
+        <h2>CONTACT</h2>
+        <form action="#" method="POST">
+          <p>
+            <input type="text" name="name" placeholder="NAME">
+          </p>
+          <p>
+            <textarea name="textarea" placeholder="MESSAGE"></textarea>
+          </p>
+          <p>
+            <input type="submit" value="SEND">
+          </p>
+        </form>
+      </div>
+      <div class="pagetop">
+        <a href="javascript:void(0);" id="top">ページトップへ</a>
+      </div>
+      <footer>
+        <small>&copy; sample site</small>
+      </footer>
+    </div>
+  </body>
+</html>
