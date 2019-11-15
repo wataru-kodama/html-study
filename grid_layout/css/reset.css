@@ -347,6 +347,9 @@ template {
 [hidden] {
   display: none;
 }
+ul, ol {
+  list-style-type: none;
+}
 /* 
 html {
   font-size: 62.5%;
