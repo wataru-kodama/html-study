@@ -354,7 +354,7 @@ html {
 body {
   font-size: 1.6rem;
 }
-h1, h2, h3, ul, ol, a, p, figure {
-  margin: 0;
+/* h1, h2, h3, ul, ol, a, p, figure {
+margin: 0;
   padding: 0;
-}
+} */

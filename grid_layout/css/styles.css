@@ -1,6 +1,9 @@
 @charset "utf-8";
 .post {
-  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 40px;
+  padding: 30px;
 }
 .post img {
   height: auto;
