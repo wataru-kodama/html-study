@@ -1,0 +1,9 @@
+@charset "utf-8";
+.post {
+  margin: 0;
+}
+.post img {
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
+}
