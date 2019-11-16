@@ -12,3 +12,28 @@
 .shop img {
   max-width: 100px;
 }
+.post {
+  display: grid;
+  grid-template-columns: 20px 1fr 50px 1fr 20px;
+  grid-template-rows: auto 30px auto 40px auto 30px;
+}
+.post-head {
+  grid-column: 2/-2;
+  grid-row: 1;
+}
+.sec01 {
+  grid-column: 2/-2;
+  grid-row: 3;
+}
+.sec02 {
+  grid-column: 2;
+  grid-row: 5;
+}
+.sec03 {
+  grid-column: 4;
+  grid-row: 5;
+}
+.post-footer {
+  grid-column: 1/-1;
+  grid-row: -2;
+}
