@@ -351,3 +351,11 @@ body {
   margin: 0;
   font-family: 'メイリオ', 'HIragino Kaku Gothic Pro', sans-serif;
 }
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
