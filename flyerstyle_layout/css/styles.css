@@ -1,0 +1,14 @@
+.post * {
+  margin: 0;
+}
+.post img {
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
+}
+.post-series img {
+  max-width: 30px;
+}
+.shop img {
+  max-width: 100px;
+}
