@@ -10,3 +10,11 @@
 .orange-sub img {
   max-width: 120px;
 }
+.orange {
+  --side: 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 30px;
+  margin: 0 var(--side) 30px;
+}
