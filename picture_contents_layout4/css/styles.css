@@ -1,0 +1,13 @@
+@charset "utf-8";
+body {
+  font-family: 'メイリオ', 'Hiragino Kaku Gothic', sans-serif;
+  margin: 0;
+}
+.cake * {
+  margin: 0;
+}
+.cake img {
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
+}
