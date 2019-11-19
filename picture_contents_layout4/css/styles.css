@@ -15,6 +15,7 @@ body {
   --sideLR: 20px;
   --sideTB: 40px;
   display: grid;
+  font-family: 'Rounded Mplus 1c', sans-serif;
   grid-column-gap: 20px;
   grid-row-gap: 50px;
   grid-template-columns: 2fr 1fr;
@@ -22,14 +23,53 @@ body {
   margin: var(--sideTB) var(--sideLR);
 }
 .cake-main {
+  align-self: start;
+  display: grid;
   grid-column: 2;
   grid-row: 1;
+  grid-row-gap: 20px;
+  justify-self: end;
+  justify-items: end;
+  writing-mode: vertical-rl;
+}
+.cake-main h2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+.cake-main p {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  height: 15em;
+  line-height: 1.7;
 }
 .cake-photo {
   grid-column: 1;
   grid-row: 1/3;
+  margin-bottom: calc(var(--sideTB) * -1);
+  margin-left: calc(var(--sideLR) * -1);
+  margin-top: calc(var(--sideTB) * -1);
+}
+.cake-photo img {
+  height: 100%;
+  object-fit: cover;
 }
 .cake-sub {
+  align-self: end;
   grid-column: 2;
   grid-row: 2;
+}
+.cake-sub h3 {
+  background: #b03a28;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 4px;
+  text-align: center;
+}
+.cake-sub p {
+  font-size: 12px;
 }
