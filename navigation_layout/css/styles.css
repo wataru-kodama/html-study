@@ -24,7 +24,7 @@ body {
   text-align: center;
 }
 .page-main {
-  background: #ffe4b5;
+  background: #fff;
   grid-column: 1;
   grid-row: 2;
 }
@@ -97,8 +97,8 @@ body {
     grid-row: 1/4;
   }
   .page-nav {
-    display: block;
     background: #222;
+    display: block;
   }
   .page-btn {
     display: none;
