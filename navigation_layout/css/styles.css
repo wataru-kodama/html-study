@@ -10,3 +10,41 @@ body {
   vertical-align: bottom;
   width: 80px;
 }
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.page-head {
+  background: #222;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 15px 0;
+  text-align: center;
+}
+.page-main {
+  background: #ffe4b5;
+  grid-column: 1;
+  grid-row: 2;
+}
+.page-nav {
+  grid-column: 1;
+  grid-row: 2;
+}
+.page-btn,
+.page-btn-close {
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+}
+.page-foot {
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  grid-column: 1;
+  grid-row: 3;
+  padding: 20px 0;
+  text-align: center;
+}
