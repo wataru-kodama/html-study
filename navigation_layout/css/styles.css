@@ -1,0 +1,12 @@
+@charset "utf-8";
+body {
+  font-family: 'メイリオ', 'Hiragino Kaku Gothic', sans-serif;
+  margin: 0;
+}
+.page * {
+  margin: 0;
+}
+.page-head img {
+  vertical-align: bottom;
+  width: 80px;
+}
