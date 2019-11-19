@@ -29,15 +29,39 @@ body {
   grid-row: 2;
 }
 .page-nav {
+  background: rgba(0, 0, 0, 0.8);
   grid-column: 1;
   grid-row: 2;
+  z-index: 100;
+}
+.page-nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.page-nav a {
+  border-bottom: solid 1px #aaa;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 30px;
+  text-decoration: none;
 }
 .page-btn,
 .page-btn-close {
   align-self: center;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
   grid-column: 1;
   grid-row: 1;
   justify-self: start;
+  padding: 20px;
+}
+.page-btn-close {
+  display: none;
 }
 .page-foot {
   background: #222;
