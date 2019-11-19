@@ -82,3 +82,28 @@ body {
   padding: 20px 0;
   text-align: center;
 }
+@media (min-width:1260px) {
+  .page {
+    grid-template-columns: 260px 1fr;
+  }
+  .page-head {
+    padding: 40px 0;
+  }
+  .page-head img {
+    width: 150px;
+  }
+  .page-main {
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .page-nav {
+    display: block;
+    background: #222;
+  }
+  .page-btn {
+    display: none;
+  }
+  .page-foot {
+    padding: 40px 0;
+  }
+}
