@@ -29,10 +29,14 @@ body {
   grid-row: 2;
 }
 .page-nav {
+  display: none;
   background: rgba(0, 0, 0, 0.8);
   grid-column: 1;
   grid-row: 2;
   z-index: 100;
+}
+.open .page-nav {
+  display: block;
 }
 .page-nav ul {
   margin: 0;
@@ -62,6 +66,12 @@ body {
 }
 .page-btn-close {
   display: none;
+}
+.open .page-btn {
+  display: none;
+}
+.open .page-btn-close {
+  display: block;
 }
 .page-foot {
   background: #222;

@@ -24,14 +24,20 @@
         <li><a href="#">お問い合わせ</a></li>
       </ul>
     </nav>
-    <button type="button" class="page-btn">
+    <button type="button" class="page-btn" onclick="myFunc()">
       <span class="fas fa-bars" title="メニューを開く"></span>
     </button>
-    <button type="button" class="page-btn-close">
+    <button type="button" class="page-btn-close" onclick="myFunc()">
       <span class="fas fa-times" title="メニューを閉じる"></span>
     </button>
     <footer class="page-foot">
       <p>&copy; ONE POINT</p>
     </footer>
+
+    <script>
+      function myFunc() {
+        document.querySelector('.page').classList.toggle('open');
+      }
+    </script>
   </body>
 </html>
