@@ -108,9 +108,7 @@ body {
   content: '';
   grid-column: 1;
   grid-row: 1/4;
-  margin-bottom: calc(var(--sideTB) * -1);
-  margin-left: calc(var(--sideLR) * -1);
-  margin-top: calc(var(--sideTB) * -1);
+  margin: calc(var(--sideTB) * -1) 0 calc(var(--sideTB) * -1) calc(var(--sideLR) * -1);
   z-index: -1;
 }
 @media (min-width:1000px) {
@@ -161,7 +159,6 @@ body {
   .peel::after {
     grid-column: 1;
     grid-row: 4/7;
-    margin-top: 0;
-    margin-right: calc(var(--sideLR) * -1);
+    margin: 0 calc(var(--sideLR) * -1) calc(var(--sideTB) * -1) calc(var(--sideLR) * -1);
   }
 }
