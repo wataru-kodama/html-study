@@ -25,7 +25,7 @@ body {
   grid-template-rows: auto 180px;
   margin: 0 var(--side) 30px;
 }
-@supports (-webki-nbsp-mode: space) {
+@supports (-webkit-nbsp-mode: space) {
   .burger {
     grid-template-rows: auto 192px;
   }
