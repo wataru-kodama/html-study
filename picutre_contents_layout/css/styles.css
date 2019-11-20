@@ -37,7 +37,7 @@ body {
   justify-items: end;
   justify-self: center;
   padding: 40px 0;
-  text-shadow: 0px 0px 20px #000;
+  text-shadow: 0 0 20px #000;
   writing-mode: vertical-rl;
   z-index: 10;
 }
