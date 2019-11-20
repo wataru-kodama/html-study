@@ -1,0 +1,109 @@
+@charset "utf-8";
+body {
+  font-family: 'メイリオ', 'Hiragino Kaku Gothic', sans-serif;
+  margin: 0;
+}
+.page * {
+  margin: 0;
+}
+.page-head img {
+  vertical-align: bottom;
+  width: 80px;
+}
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.page-head {
+  background: #222;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 15px 0;
+  text-align: center;
+}
+.page-main {
+  background: #fff;
+  grid-column: 1;
+  grid-row: 2;
+}
+.page-nav {
+  display: none;
+  background: rgba(0, 0, 0, .8);
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 100;
+}
+.open .page-nav {
+  display: block;
+}
+.page-nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.page-nav a {
+  border-bottom: solid 1px #aaa;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 30px;
+  text-decoration: none;
+}
+.page-btn,
+.page-btn-close {
+  align-self: center;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  padding: 20px;
+}
+.page-btn-close {
+  display: none;
+}
+.open .page-btn {
+  display: none;
+}
+.open .page-btn-close {
+  display: block;
+}
+.page-foot {
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  grid-column: 1;
+  grid-row: 3;
+  padding: 20px 0;
+  text-align: center;
+}
+@media (min-width:1260px) {
+  .page {
+    grid-template-columns: 260px 1fr;
+  }
+  .page-head {
+    padding: 40px 0;
+  }
+  .page-head img {
+    width: 150px;
+  }
+  .page-main {
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .page-nav {
+    background: #222;
+    display: block;
+  }
+  .page-btn {
+    display: none;
+  }
+  .page-foot {
+    padding: 40px 0;
+  }
+}
